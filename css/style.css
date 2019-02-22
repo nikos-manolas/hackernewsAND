@@ -1,0 +1,39 @@
+body {
+    margin: auto 0;
+    font-family: Arial;
+    font-size: 0.9em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.colorGray {
+    color: gray;    
+}
+
+.colorRed {
+    color: red;
+}
+
+.commentClass {
+	font-size: 0.8em;
+    cursor: pointer;
+}
+
+.commentClass:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display:block;
+}
+
+.smallerFont {
+	font-size: 0.8em;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My HackerNews API</title>
+		<link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	</head>
+	<body>
+		<h1> My HackerNews API</h1>
+		<div id = 'loader'>Loading the news, please wait &nbsp;&nbsp;
+			<i class="fas fa-spinner fa-spin"></i>
+		</div>
+		<div>
+			<ol id="news">
+				
+			</ol>
+		</div>
+	</body>
+	<!--We would ideally want to minify the files and concatenate them all in one script -->
+	<script type="text/javascript" src="./js/getNews.js"></script>
+	<script type="text/javascript" src="./js/getComments.js"></script>
+	<script type="text/javascript" src="./js/dom_elements.js"></script>
+	<script type="text/javascript" src="./js/index.js"></script>
+</html>
